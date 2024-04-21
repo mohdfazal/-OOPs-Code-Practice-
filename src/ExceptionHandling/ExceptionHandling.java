@@ -1,3 +1,5 @@
+package ExceptionHandling;
+
 import java.util.Scanner;
 
 public class ExceptionHandling {
@@ -24,9 +26,9 @@ public class ExceptionHandling {
            catch (ArrayIndexOutOfBoundsException e){
                System.out.println(e.getMessage());
            }
-//           catch (Exception e) {
-//               System.out.println("this is final exceptio we are getting by " + e.getMessage());
-//           }
+           catch (Exception e) {
+               System.out.println("this is the exception  we are getting by " + e.getMessage());
+           }
           finally {
                System.out.println("this block will code anyhow");
            }
